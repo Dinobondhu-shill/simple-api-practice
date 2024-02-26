@@ -1,0 +1,35 @@
+main>h1{
+  color: white;
+  background-color: black;
+  padding: 20px 5px;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+main a{
+  padding: 10px 20px;
+  background-color: thistle;
+  border-radius: 10px;
+  border: 1px solid blue;
+  display: block;
+width: fit-content;
+margin: 0 auto;
+cursor: pointer;
+}
+#photo-container{
+  display: flex;
+  gap: 50px;
+}
+#photo-container div{
+  width: 45%;
+  border: 2px solid steelblue;
+  padding: 10px;
+  border-radius: 15px;
+
+}
+#photo-container div h3{
+  font-size: 22px;
+  font-weight: 600;
+  color: tomato;
+  border-bottom: 1px dashed salmon;
+}
